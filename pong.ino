@@ -191,6 +191,9 @@ void setupSensors()
   // Entrada para Player 1 Coin
   pinMode(PLAYER1_COIN, INPUT);
 
+  // Entrada para Player 2 Coin
+  pinMode(PLAYER2_COIN, INPUT);
+
   // Salida para Buzzer
   pinMode(BUZZER, OUTPUT);     
 }
